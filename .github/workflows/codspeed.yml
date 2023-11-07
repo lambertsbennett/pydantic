@@ -27,3 +27,4 @@ jobs:
         uses: CodSpeedHQ/action@v1
         with:
           run: pdm run pytest ./tests/benchmarks --codspeed
+        token: ${{ secrets.CODSPEED_TOKEN }}
